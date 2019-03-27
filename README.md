@@ -9,4 +9,7 @@ Eathub is a food ordering web application with users getting 24/7 status of thei
 # Folders
 
 1. web - consists of all frontend related files ( .js , .jsp , .html , .css )
-2. 
+2. build - web.xml configuration file
+3. src - java folder consists of all servlets files 
+
+
