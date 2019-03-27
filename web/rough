@@ -1,0 +1,10 @@
+   Class.forName("com.mysql.jdbc.Driver");
+           Connection conn = DriverManager.getConnection("jdbc:mysql://13.232.235.52/myfoodweb","saiyan","Boruto@Uzu4");
+             if(conn==null)   {
+            System.out.println("connection failed");
+        }
+
+
+
+INSERT INTO boxmaster (Email,State,Score,Name,DateTime) 
+SELECT DISTINCT Email,State,Score,Name,DateTime FROM boxmaster ORDER BY Score DESC
