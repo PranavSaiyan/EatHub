@@ -133,10 +133,10 @@
     </context-param>
     <context-param>
         <param-name>password</param-name>
-        <param-value>Boruto@Uzu4</param-value>
+        <param-value>**********************</param-value>
     </context-param>
     <context-param>
         <param-name>secretkey</param-name>
-        <param-value>54C4BF40375F4094FD31ED5D91C6C811</param-value>
+        <param-value>**********************</param-value>
     </context-param>
 </web-app>
